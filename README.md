@@ -1,41 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# NextJS - 04 Ignite Shop
 
-First, run the development server:
+![Ignite Shop](./public/Animacao.gif)
+
+## 📖 Sobre 
+
+  Projeto de Ecommerce básico para trabalhar com o framework NextJS, utilizando também Stitches para desenvolver componentes estilizados e Stripe para realizar pagamentos, Keen slider para criar o slider e utilizando as API Routes do Next para garantir a segurança de seus dados.
+
+## 🚀 Tecnologias
+
+  - NextJS (12)
+  - Stitches 
+  - Stripe
+  - KeenSlider
+
+
+## 📦 Como baixar o projeto
+
+   Clonar os repositórios
 
 ```bash
-npm run dev
-# or
-yarn dev
+    $ git clone https://github.com/freitasDavi/04-ignite-shop
+
+    # Instalar o node/npm
+
+    # Instalar as dependencias
+
+    $ npm install
+
+    # Inicializar a aplicação
+
+    $ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) no seu navegador para ver o projeto.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
+--- 
 
 ## .env.local keys 
 # STRIPE
-STRIPE_PUBLIC_KEY=pk_test_51LkwcMLtoWJIgglJ64o94x0PqcLfn4Kz2nsc86vChhji4wmfol0MTgurpZu1VENGOp39yR18bw2NIvp6wgaTWX0H002EU60ZfI
-STRIPE_SECRET_KEY=sk_test_51LkwcMLtoWJIgglJ9auYcqqpuvuTnc743R8m6deqK7bZMcY87Ft5xb1yL40kVU6BccxXNg7LDLXGr1kPwFghUmDL00NZ2RosP5
+STRIPE_PUBLIC_KEY=
+STRIPE_SECRET_KEY=
